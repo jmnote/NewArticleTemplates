@@ -1,6 +1,6 @@
 {
   "name": "NewArticleTemplates",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "author": ["Mathias Ertl", "Fabian Zeindl", "jmnote"],
   "url": "https://www.mediawiki.org/wiki/Extension:NewArticleTemplates",
   "description": "Prefills newly created pages with some text.",
