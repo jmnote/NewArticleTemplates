@@ -76,7 +76,7 @@ class Hooks
         $applyAllNamespaces = ! $wgNewArticleTemplatesEnabledNamespaces;
 
         $ns = $title->getNamespace();
-        if (! $applyAllNamespaces && ! array_key_exists($ns, $wgNewArticleTemplatesEnabledNamespaces)) {
+        if (! $applyAllNamespaces && ! in_array($ns, $wgNewArticleTemplatesEnabledNamespaces, true)) {
             return;
         }
 
