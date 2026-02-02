@@ -19,11 +19,11 @@
             "description": "Enables on subpages"
         },
         "NewArticleTemplatesNamespaces": {
-            "value": [],
+            "value": null,
             "description": "Templates are used in these namespaces"
         },
         "NewArticleTemplatesPerNamespace": {
-            "value": [],
+            "value": null,
             "description": "Mapping template namespaces for page namespaces"
         },
         "NewArticleTemplatesDefault": {
