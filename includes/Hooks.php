@@ -52,10 +52,7 @@ class Hooks
         $wgNewArticleTemplatesNamespaceTemplates, $wgNewArticleTemplatesApplyToSubpages;
 
         $title = $editPage->getTitle();
-        if ($title->exists()) {
-            return;
-        }
-        if ($editPage->textbox1 !== '') {
+        if ($title->exists() || $editPage->textbox1 !== '') {
             return;
         }
 
